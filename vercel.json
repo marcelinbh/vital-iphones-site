@@ -1,4 +1,8 @@
 {
   "outputDirectory": ".",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/privacidade", "destination": "/index.html" },
+    { "source": "/termos", "destination": "/index.html" }
+  ]
 }
